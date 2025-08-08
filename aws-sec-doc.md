@@ -73,4 +73,4 @@ It’s a simple setup, but in a real company, this could prevent an expensive ou
 
 
 **Author:** Nazar Buryak  
-[LinkedIn](https://www.linkedin.com/in/nazariy-buryak-778433350/) | [GitHub](https://github.com/yourprofile)
+[LinkedIn](https://www.linkedin.com/in/nazariy-buryak-778433350/) | [GitHub](https://github.com/K0NGR3SS)
