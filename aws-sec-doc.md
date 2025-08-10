@@ -13,8 +13,7 @@ The goal was simple:
 - Allow interns to start, stop, and view **development** EC2 instances.
 - Block any interaction with **production** instances.
 - Prevent them from creating or deleting tags (which could hide what’s prod vs dev).
-- 
-![Solution Architecture](images/iam-user.png).
+  
 ---
 
 ## My Steps
@@ -48,7 +47,7 @@ I set up an **Account Alias** so users could log in with a name instead of a ran
 
 **4. Creating the Interns Group**  
 I created an IAM group called Interns, attached the custom policy to it, and added the relevant IAM users.
-From that point on, every user in the group automatically had the least-privilege permissions applied.
+From that point on, every user in the group automatically had the least privilege permissions applied.
 
 ---
 
@@ -65,7 +64,7 @@ It’s a simple setup, but in a real company, this could prevent an expensive ou
 
 ## What I Learned
 - How to **control AWS access by tags**, not just by service.
-- Why **custom IAM policies** give more control than AWS defaults.
+- Why **custom IAM policies** give more control than AWS default policies.
 - That even in small environments, **least privilege** matters.
 
 ---
