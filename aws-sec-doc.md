@@ -14,7 +14,7 @@ The goal was simple:
 - Block any interaction with **production** instances.
 - Prevent them from creating or deleting tags (which could hide what’s prod vs dev).
 - 
-![Solution Architecture](IAM User .png)
+![Solution Architecture](images/IAM User .png).
 ---
 
 ## My Steps
