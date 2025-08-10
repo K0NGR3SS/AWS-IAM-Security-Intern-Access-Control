@@ -1,14 +1,13 @@
 # Securing AWS EC2 Access for Interns with IAM
 
-In many companies, interns need access to development resources but must be kept far away from production systems.  
-In this project, I set up an **AWS IAM security model** that enforces exactly that — interns can manage development EC2 instances, but production stays completely locked down.
+In many companies, interns need access to development resources but must be kept far away from production.  
+In this project, I set up an **AWS IAM security model** that enforces exactly that, interns can manage development EC2 instances, but production stays completely locked down.
 
 ---
 
 ## The Challenge
 Imagine giving a junior intern full AWS permissions.  
-It’s like giving your car keys to someone who just learned to drive — in the dark — on ice.  
-Not a great idea.
+It’s like handing your phone unlocked to a toddler. You never know if they’ll open a game, delete your photos, or call your boss.
 
 The goal was simple:
 - Allow interns to start, stop, and view **development** EC2 instances.
@@ -47,9 +46,8 @@ I set up an **Account Alias** so users could log in with a name instead of a ran
 ---
 
 **4. Creating the Interns Group**  
-I made an `Interns` IAM group, attached the policy, and added new IAM users.  
-From now on, anyone in that group inherits the least-privilege rules.  
-![Group Policy Attachment](images/group-policy-attach.png)
+I created an IAM group called Interns, attached the custom policy to it, and added the relevant IAM users.
+From that point on, every user in the group automatically had the least-privilege permissions applied.
 
 ---
 
@@ -71,6 +69,5 @@ It’s a simple setup, but in a real company, this could prevent an expensive ou
 
 ---
 
-
-**Author:** Nazar Buryak  
+**Personal Links:**
 [LinkedIn](https://www.linkedin.com/in/nazariy-buryak-778433350/) | [GitHub](https://github.com/K0NGR3SS)
