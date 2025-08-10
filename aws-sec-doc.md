@@ -13,7 +13,8 @@ The goal was simple:
 - Allow interns to start, stop, and view **development** EC2 instances.
 - Block any interaction with **production** instances.
 - Prevent them from creating or deleting tags (which could hide what’s prod vs dev).
-
+- 
+![Solution Architecture](IAM User .png)
 ---
 
 ## My Steps
