@@ -62,6 +62,13 @@ It’s a simple setup, but in a real company, this could prevent an expensive ou
 
 ---
 
+Tech Stack:
+
+- Amazon EC2 - Launhing virtual machines on cloud
+- Amazon IAM - Managing permissions, policies, roles and users
+
+---
+
 ## What I Learned
 - How to **control AWS access by tags**, not just by service.
 - Why **custom IAM policies** give more control than AWS default policies.
